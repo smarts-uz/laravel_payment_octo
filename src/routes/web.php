@@ -1,6 +1,6 @@
 <?php
 
-use Asadbek\OctoLaravel\Http\Controllers\OctoBaseController;
+use Teampro\LaravelPaymentOcto\Http\Controllers\OctoBaseController;
 Route::group([
     'middleware' => 'web',
     'prefix' => 'octo',

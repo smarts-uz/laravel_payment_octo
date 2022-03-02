@@ -1,6 +1,6 @@
 <?php
 
-namespace Asadbek\OctoLaravel\Requests;
+namespace Teamprodev\LaravelPaymentOcto\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

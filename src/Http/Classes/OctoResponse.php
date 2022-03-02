@@ -1,6 +1,6 @@
 <?php
 
-namespace Asadbek\OctoLaravel\Http\Classes;
+namespace Teamprodev\LaravelPaymentOcto\Http\Classes;
 
 use Illuminate\Support\Arr;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Asadbek\OctoLaravel\Console\Commands;
+namespace Teamprodev\LaravelPaymentOcto\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

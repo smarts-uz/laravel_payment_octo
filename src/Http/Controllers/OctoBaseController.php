@@ -1,13 +1,13 @@
 <?php
 
-namespace Asadbek\OctoLaravel\Http\Controllers;
+namespace Teamprodev\LaravelPaymentOcto\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Asadbek\OctoLaravel\Models\OctoTransactions;
-use Asadbek\OctoLaravel\Models\Order;
-use Asadbek\OctoLaravel\Models\User;
-use Asadbek\OctoLaravel\Requests\OctoRequest;
-use Asadbek\OctoLaravel\Services\OctoService;
+use Teamprodev\LaravelPaymentOcto\Models\OctoTransactions;
+use Teamprodev\LaravelPaymentOcto\Models\Order;
+use Teamprodev\LaravelPaymentOcto\Models\User;
+use Teamprodev\LaravelPaymentOcto\Requests\OctoRequest;
+use Teamprodev\LaravelPaymentOcto\Services\OctoService;
 use Illuminate\Http\Request;
 
 class OctoBaseController extends Controller

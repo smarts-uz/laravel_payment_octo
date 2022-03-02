@@ -1,5 +1,5 @@
 <?php
-namespace Asadbek\OctoLaravel\Services;
+namespace Teamprodev\LaravelPaymentOcto\Services;
 
 /**
  * Клиент для получения курсов валют с сайта ЦБ Узбекистана.

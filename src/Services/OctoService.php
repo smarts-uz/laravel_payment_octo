@@ -1,12 +1,12 @@
 <?php
 
-namespace Asadbek\OctoLaravel\Services;
+namespace Teamprodev\LaravelPaymentOcto\Services;
 
-use Asadbek\OctoLaravel\Http\Classes\OctoResponse;
-use Asadbek\OctoLaravel\Models\OctoTransactions;
-use Asadbek\OctoLaravel\Models\Order;
-use Asadbek\OctoLaravel\Models\User;
-use Asadbek\OctoLaravel\Requests\OctoRequest;
+use Teamprodev\LaravelPaymentOcto\Http\Classes\OctoResponse;
+use Teamprodev\LaravelPaymentOcto\Models\OctoTransactions;
+use Teamprodev\LaravelPaymentOcto\Models\Order;
+use Teamprodev\LaravelPaymentOcto\Models\User;
+use Teamprodev\LaravelPaymentOcto\Requests\OctoRequest;
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Http\Request;

@@ -1,5 +1,5 @@
 {
-    "name": "asadbek/octo-laravel",
+    "name": "teamprodev/laravel-payment-octo",
     "authors": [
         {
             "name": "Asadbekinha",
@@ -13,13 +13,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asadbek\\OctoLaravel\\Providers\\OctoServiceProvider"
+                "Teamprodev\\LaravelPaymentOcto\\Providers\\OctoServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Asadbek\\OctoLaravel\\": "src/"
+            "Teamprodev\\LaravelPaymentOcto\\": "src/"
         }
     }
 }
