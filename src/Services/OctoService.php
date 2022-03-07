@@ -255,7 +255,7 @@ class OctoService
             "octo_secret": ' . config('octo.octo_secret') . ',
             "shop_transaction_id": ' . $this->order->id . ',
             "auto_capture": ' . config('octo.auto_capture') . ',
-            "test": ' . config('octo.test', false) . ',
+            "test": "' . config('octo.test', false) . '",
             "init_time": "' . strval(Carbon::now()->format('Y-m-d H:m:s')) . '",
             "user_data": '.json_encode($users).',
             "total_sum": ' . $this->order_price . ',
